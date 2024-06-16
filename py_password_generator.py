@@ -19,11 +19,8 @@ except ValueError:
     raise Exception("Please use only number's!")
 
 generated_password = ""
-
 generated_letters = ""
-
 generated_symbols = ""
-
 generated_numbers = ""
 
 for i in range(1, desired_letters + 1):
